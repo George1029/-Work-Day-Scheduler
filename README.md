@@ -2,7 +2,7 @@
 
 # DESCRIPTION
 
-
+Work Day Scheduler from 8am - 5pm grey is past green is present and red is future.
 
 # URL
 
