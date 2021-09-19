@@ -1,22 +1,23 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Gluten', cursive;
     font-size: 16px;
     line-height: 1;
+    background-color: #000000;
   }
   
   textarea{
-    background: transparent;
+    background:transparent;
     border: none;
     resize: none;
-    color: #000000;
-    border-left: 1px solid black;
+    color: rgb(140, 1, 182);
+    border-left: 1px solid rgb(80, 14, 124);
     padding: 10px;
   }
   
   .jumbotron {
     text-align: center;
-    background-color: transparent;
-    color: black;
+    background-color: rgb(91, 17, 141);
+    color: rgb(3, 110, 53);
     border-radius: 0;
     border-bottom: 10px solid black;
   }
@@ -37,8 +38,8 @@ body {
   }
   
   .hour {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: rgb(91, 17, 141);
+    color: rgb(3, 110, 53);;
     border-top: 1px dashed #000000;
   }
   
@@ -68,4 +69,31 @@ body {
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
+  }
+
+
+
+
+  /*medi query*/
+
+  @media screen and (max-width: 768px), screen and (max-width: 575px) {
+    .row {
+      height: auto;
+      margin-top: 20px;
+    }
+  
+    .hour {
+      padding-right: 17%;
+    }
+  
+    .saveBtn {
+      border: 0;
+      border-radius: 0.25rem;
+      height: 50px;
+    }
+  
+    textarea {
+      min-height: 85px;
+      border: 0;
+    }
   }
